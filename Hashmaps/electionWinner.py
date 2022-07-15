@@ -10,7 +10,7 @@ def winner(votes):
             map[s] += 1
         else:
             map[s] = 1
-            
+    
     return map
 
 w = winner(votes)
